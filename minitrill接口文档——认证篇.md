@@ -35,7 +35,7 @@
 
 ### 检查登录
 
-``/api/v1.0/authtication``
+``/api/v1.0/session``
 
 请求类型  
 GET
