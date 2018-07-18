@@ -56,3 +56,87 @@ GET
     }
 }
 ```
+
+### 登录
+
+``/api/v1.0/session``
+
+请求类型  
+POST
+
+请求参数  
+|参数名   |  类型 | 必填 | 描述  |
+|--------|-------|-----|------|
+|account    | String| Yes |角色名字|
+|password | String|Yes   |密码|
+
+返回示例
+```python
+{
+    "code": 0,
+    "data": null,
+    "message": "成功登陆",
+    "success": true #表示成功登陆，False表示失败，具体信息由message给出
+}
+```
+
+### 退出登录
+
+``/api/v1.0/session``
+
+请求类型  
+DELETE
+
+
+### 更新登录
+
+``/api/v1.0/session``
+
+请求类型  
+PUT
+
+### 注册账号
+
+``/api/v1.0/registe``
+
+请求类型  
+POST
+
+请求参数  
+|参数名   |  类型 | 必填 | 描述  |
+|--------|-------|-----|------|
+|account    | String| Yes |角色名字|
+|password | String|Yes   |密码|
+|nickname| String|Yes|昵称|
+|sex| int| No|性别:0男 1女 2 保密|
+|age| int| No|年龄|
+|birth| Date| No|生日|
+|tel|String|No|电话|
+|country|String|No|国籍|
+|province|String|No|省份|
+|city|String|No|城市|
+|brief_introduction|String|No|自我简介|  
+
+返回示例
+```python
+{
+    "code": 0,
+    "data": null,
+    "message": "成功添加",
+    "success": true #表示成功增加，False表示错误，具体信息由message给出
+}
+```
+或，请求数据不完整
+```python
+{
+    "code": 54,
+    "data": null,
+    "message": "角色名字不能为空",
+    "success": False #False表示删错错误
+}
+```
+
+
+
+
+
