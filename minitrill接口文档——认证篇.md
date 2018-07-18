@@ -27,14 +27,15 @@
 |0   | 成功 |
 |30  | 资源不存在|
 |63  |没有权限请求该资源|
-|54  |请求有误        |
+|54  |请求有误|  
+
 待补充
 
 ## 接口详情
 
 ### 检查登录
 
-``/api/v1.0/auth/check``
+``/api/v1.0/authtication``
 
 请求类型  
 GET
@@ -49,8 +50,8 @@ GET
 ...
     "data" : {
         "islogin" : True,  #true表示已登录，false表示未登录，以下两项未空
-        "username" : "xuzeshan",
-        "realname" : "许泽珊",
+        "username" : "zenglingfeng",
+        "realname" : "曾凌峰",
         "id" : 1
     }
 }
