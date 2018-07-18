@@ -64,11 +64,12 @@ GET
 请求类型  
 POST
 
-请求参数  
-|参数名   |  类型 | 必填 | 描述  |
-|--------|-------|-----|------|
-|account    | String| Yes |角色名字|
-|password | String|Yes   |密码|
+请求参数
+
+|参数名|类型|必填|描述|  
+|-----|----|----|----|  
+|account|String|Yes|角色名字|  
+|password|String|Yes|密码|  
 
 返回示例
 ```python
@@ -103,10 +104,11 @@ PUT
 POST
 
 请求参数  
-|参数名   |  类型 | 必填 | 描述  |
+
+|参数名   |  类型 | 必填 | 描述|
 |--------|-------|-----|------|
-|account    | String| Yes |角色名字|
-|password | String|Yes   |密码|
+|account | String| Yes |角色名字|
+|password| String|Yes  |密码|
 |nickname| String|Yes|昵称|
 |sex| int| No|性别:0男 1女 2 保密|
 |age| int| No|年龄|
