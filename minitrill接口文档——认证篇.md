@@ -86,8 +86,23 @@ POST
 ``/api/v1.0/session``
 
 请求类型  
+
 DELETE
 
+请求参数
+
+无 
+
+返回示例
+```python
+{
+    "code": 0,
+    "data": null,
+    "message": "成功,
+    "success": true #表示成功退出
+}
+```
+**说明** 如果当前用户未登陆，会返回403
 
 ### 更新登录
 
