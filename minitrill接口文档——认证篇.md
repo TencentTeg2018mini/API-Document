@@ -57,7 +57,7 @@ GET
 }
 ```
 
-### 登录
+### 账号登录
 
 ``/api/v1.0/session``
 
@@ -68,8 +68,8 @@ POST
 
 |参数名|类型|必填|描述|  
 |-----|----|----|----|  
-|account|String|Yes|角色名字|  
-|password|String|Yes|密码|  
+|account|String|Yes|用户账号|  
+|password|String|Yes|用户密码|  
 
 返回示例
 ```python
@@ -137,6 +137,9 @@ POST
     "success": False #False表示删错错误
 }
 ```
+
+
+
 
 
 
