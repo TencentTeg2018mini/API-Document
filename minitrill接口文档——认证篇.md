@@ -50,8 +50,8 @@ GET
 ...
     "data" : {
         "islogin" : True,  #true表示已登录，false表示未登录，以下两项未空
-        "username" : "zenglingfeng",
-        "realname" : "曾凌峰",
+        "account" : "zenglingfeng",
+        "nickname" : "曾凌峰",
         "id" : 1
     }
 }
