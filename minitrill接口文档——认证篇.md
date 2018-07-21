@@ -113,7 +113,7 @@ PUT
 
 ### 注册账号
 
-``/api/v1.0/registe``
+``/api/v1.0/account``
 
 请求类型  
 POST
