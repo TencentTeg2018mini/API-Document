@@ -132,7 +132,8 @@ POST
 |country|String|No|国籍|
 |province|String|No|省份|
 |city|String|No|城市|
-|brief_introduction|String|No|自我简介|  
+|brief_introduction|String|No|自我简介|
+|portrait|base64/png格式|No|头像图片|  
 
 返回示例
 ```python
