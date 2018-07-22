@@ -131,3 +131,42 @@ GET
     "success": true
 }
 ```
+
+### 获取视频
+
+``/api/v1.0/video/video``  
+请求视频资源
+
+请求类型  
+GET
+
+请求参数  
+
+无
+
+返回示例
+
+```python
+{
+    "message": "成功",
+    "code": 0,
+    "data": [
+        {
+            "v_url": "/data/minitrill/video/test.mp4"
+        },
+        {
+            "v_url": "/data/minitrill/video/test.mp4"
+        },
+        {
+            "v_url": "/data/minitrill/video/test.mp4"
+        },
+        {
+            "v_url": "/data/minitrill/video/test.mp4"
+        },
+        {
+            "v_url": "/data/minitrill/video/test.mp4"
+        }
+    ],
+    "success": true
+}
+```
