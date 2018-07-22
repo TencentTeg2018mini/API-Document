@@ -134,7 +134,7 @@ GET
 
 ### 获取视频
 
-``/api/v1.0/video/video``  
+``/api/v1.0/video``  
 请求视频资源
 
 请求类型  
