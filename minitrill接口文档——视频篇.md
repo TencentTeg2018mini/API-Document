@@ -102,7 +102,6 @@ POST
 ```
 
 返回示例
-
 略
 
 
@@ -115,7 +114,6 @@ POST
 GET
 
 请求参数  
-
 无
 
 返回示例
@@ -141,7 +139,6 @@ GET
 GET
 
 请求参数  
-
 无
 
 返回示例
@@ -153,7 +150,23 @@ GET
     "data": [
         {
             "vid":2,
-            "v_url": "/data/minitrill/video/test.mp4"
+            "v_url": "/data/minitrill/video/test.mp4",
+            "title",#标题
+            "uploader_uid", #上传者id
+            "uploader_nickname", #上传者昵称
+            "note", #说明
+            "tag", #标签
+            "like", #点赞数量
+            "share", #分享数量
+            "view", #观看数量
+            "comment",#视频评论
+            "upload_time", #上传时间
+            "tag1_id",
+            "tag2_id",
+            "tag3_id",
+            "v_photo_url" #视频截图地址
+
+
         },
         {
             "vid":2,
