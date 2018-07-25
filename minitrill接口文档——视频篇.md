@@ -134,7 +134,7 @@ GET
 
 ### 获取视频
 
-``/api/v1.0/video``  
+``/api/v1.0/video/video``  
 请求视频资源
 
 请求类型  
@@ -152,18 +152,23 @@ GET
     "code": 0,
     "data": [
         {
+            "vid":2,
             "v_url": "/data/minitrill/video/test.mp4"
         },
         {
+            "vid":2,
             "v_url": "/data/minitrill/video/test.mp4"
         },
         {
+            "vid":2,
             "v_url": "/data/minitrill/video/test.mp4"
         },
         {
+            "vid":2,
             "v_url": "/data/minitrill/video/test.mp4"
         },
         {
+            "vid":2,
             "v_url": "/data/minitrill/video/test.mp4"
         }
     ],
