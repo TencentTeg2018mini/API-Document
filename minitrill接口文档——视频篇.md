@@ -149,41 +149,26 @@ GET
     "code": 0,
     "data": [
         {
-            "vid":2,
-            "v_url": "/data/minitrill/video/test.mp4",
-            "title",#标题
-            "uploader_uid", #上传者id
-            "uploader_nickname", #上传者昵称
-            "note", #说明
-            "tag", #标签
-            "like", #点赞数量
-            "share", #分享数量
-            "view", #观看数量
-            "comment",#视频评论
-            "upload_time", #上传时间
-            "tag1_id",
-            "tag2_id",
-            "tag3_id",
-            "v_photo_url" #视频截图地址
-
-
+            "status": 1,
+            "comment": 1506,
+            "upload_time": "2018-07-26 10:11:13",
+            "`like`": 12001,
+            "vid": 1,
+            "title": "Star Wars_ The Clone Wars Official Trailer",
+            "tag2_id": 0,
+            "v_photo_url": null,
+            "share": 450,
+            "tag3_id": 0,
+            "note": "TEST",
+            "flag": 1,
+            "tag": "Star Wars",
+            "uploader_nickname": "sw",
+            "v_url": "/root/data/minitrill/video/deal1.mp4",
+            "tag1_id": 0,
+            "uploader_uid": 2,
+            "view": 1306074
         },
-        {
-            "vid":2,
-            "v_url": "/data/minitrill/video/test.mp4"
-        },
-        {
-            "vid":2,
-            "v_url": "/data/minitrill/video/test.mp4"
-        },
-        {
-            "vid":2,
-            "v_url": "/data/minitrill/video/test.mp4"
-        },
-        {
-            "vid":2,
-            "v_url": "/data/minitrill/video/test.mp4"
-        }
+        ...
     ],
     "success": true
 }
