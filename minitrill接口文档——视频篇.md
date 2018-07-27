@@ -175,3 +175,105 @@ GET
     "success": true
 }
 ```
+
+
+### 发布评论
+
+``/api/v1.0/video/videocomment/<int:video_id>``  
+对id为video_id的视频发布评论
+
+请求类型  
+POST
+
+请求参数  
+
+|参数名|类型|必填|描述|默认值|参考值|  
+|-----|----|----|----|---|----|  
+|comment|string|Yes|评论内容|无|双击666|
+|ref_comment_id|int|No|引用的评论id|无|无|
+
+参考示例
+
+```python
+{
+    "comment":"lailailai",
+    "ref_comment_id": ""
+}
+```
+
+返回示例
+略
+
+
+### 获取评论
+
+``/api/v1.0/video/videocomment/``  
+对id为video_id的视频发布评论
+
+请求类型  
+GET
+
+请求参数  
+无
+
+返回示例
+
+```python
+{
+    "message": "成功",
+    "code": 0,
+    "data": [
+        {
+            "status": 0,
+            "comment": "跟到底跟到底",
+            "comment_like": 5,
+            "uid": -840729673,
+            "vid": 3,
+            "comment_id": 2,
+            "comment_time": "2018-07-27 16:27:13",
+            "ref_comment_id": 1
+        },
+        {
+            "status": 0,
+            "comment": "双击666送豪华游艇",
+            "comment_like": 0,
+            "uid": -840729673,
+            "vid": 3,
+            "comment_id": 1,
+            "comment_time": "2018-07-27 16:24:26",
+            "ref_comment_id": -1
+        },
+        ...
+    ],
+    "success": true
+}
+```
+
+
+### 删除评论
+
+``/api/v1.0/videocomment/<int:comment_id>``  
+删除id为comment_id的评论
+
+请求类型  
+POST
+
+请求参数    
+无
+
+返回实例  
+略
+
+### 点赞评论
+
+``/api/v1.0/videocomment/<int:comment_id>``  
+点赞id为comment_id的评论
+
+请求类型  
+PUT
+
+请求参数    
+无
+
+返回实例  
+略
