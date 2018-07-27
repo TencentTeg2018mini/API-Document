@@ -99,7 +99,8 @@ DELETE
 请求类型  
 GET
 
-请求参数  
+请求参数
+
 |参数名   |  类型 | 必填 | 描述|
 |--------|-------|-----|------|
 |type | enum(fan, master)| Yes |请求类型：type=fan表示请求粉丝，type=master表示请求关注者| 
