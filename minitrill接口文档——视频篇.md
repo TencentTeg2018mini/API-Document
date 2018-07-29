@@ -251,7 +251,7 @@ GET
 ```
 
 
-### 删除评论
+### 删除评论 ok
 
 ``/api/v1.0/videocomment/<int:comment_id>``  
 删除id为comment_id的评论
