@@ -32,7 +32,7 @@
 
 ## 接口详情
 
-### 分享视频
+### 分享视频 
 
 ``/api/v1.0/video/share/<int:video_id>``  
 分享视频
@@ -46,7 +46,7 @@ PUT
 返回示例
 略
 
-### 点赞视频
+### 点赞视频 ok
 
 ``/api/v1.0/video/like/<int:video_id>``  
 分享视频
@@ -61,7 +61,7 @@ PUT
 略
 
 
-### 关注某人
+### 关注某人 ok
 
 ``/api/v1.0/relation/<int:user_id>``  
 为当前登陆账号关注uid为user_id的人
