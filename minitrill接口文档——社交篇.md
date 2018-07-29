@@ -100,6 +100,7 @@ DELETE
 GET
 
 请求参数  
+
 |参数名   |  类型 | 必填 | 描述|
 |--------|-------|-----|------|
 |type | enum(fan, master)| Yes |请求类型：type=fan表示请求粉丝，type=master表示请求关注者| 
@@ -158,3 +159,73 @@ GET
     "success": true
 }
 ```
+
+
+
+### 发送私信
+
+``/api/v1.0/message/``  
+发送私信
+
+请求类型  
+POST
+
+请求参数  
+
+|参数名   |  类型 | 必填 | 描述|
+|--------|-------|-----|------|
+|recive_uid | int| Yes |私信接收者| 
+|text | String| Yes |私信文本|
+
+
+返回示例  
+略
+
+
+### 删除私信
+
+``/api/v1.0/message/<int:message_id>``  
+删除id为message_id的私信
+
+请求类型  
+DELETE
+
+请求参数  
+无
+
+返回示例  
+略
+
+
+### 获取私信数据
+
+``/api/v1.0/message/?page=1&type=send``  
+获取当前登陆的人的私信数据，以分页形式获取，每次返回10条数据
+
+请求类型  
+GET
+
+请求参数 
+
+|参数名   |  类型 | 必填 | 描述|
+|--------|-------|-----|------|
+|type | enum(send, recive, unreadnum)| Yes |请求类型：type=send表示请求自己发送的私信，type=recive表示请求接受的私信，unread表示请求未读私信数量| 
+|page | int| Yes |请求的页码，分页请求，每次返回10条以内的数据|
+
+返回示例  
+略
+
+
+### 把私信标记为已读
+
+``/api/v1.0/message/<int:message_id>``  
+把id为message_id的私信标记为已读
+
+请求类型  
+PUT
+
+请求参数 
+无
+
+返回示例  
+略
