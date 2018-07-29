@@ -33,7 +33,7 @@
 
 ## 接口详情
 
-### 获取标签
+### 获取标签 ok
 
 ``/api/v1.0/video/tag``  
 请求所有视频标签
@@ -74,7 +74,7 @@ GET
 }
 ```
 
-### 设置喜爱视频标签
+### 设置喜爱视频标签 ok
 
 ``/api/v1.0/video/favoritetag``  
 请求当前用户喜爱的所有视频标签
@@ -105,7 +105,7 @@ POST
 略
 
 
-### 获取喜爱视频标签
+### 获取喜爱视频标签 
 
 ``/api/v1.0/video/favoritetag``  
 请求当前用户喜爱的所有视频标签
@@ -130,7 +130,7 @@ GET
 }
 ```
 
-### 获取视频
+### 获取视频 ok
 
 ``/api/v1.0/video/video?page=1``  
 请求视频资源
@@ -178,7 +178,7 @@ GET
 ```
 
 
-### 发布评论
+### 发布评论 ok
 
 ``/api/v1.0/video/videocomment/<int:video_id>``  
 对id为video_id的视频发布评论
@@ -206,7 +206,7 @@ POST
 略
 
 
-### 获取评论
+### 获取评论 ok
 
 ``/api/v1.0/video/videocomment/``  
 对id为video_id的视频发布评论
