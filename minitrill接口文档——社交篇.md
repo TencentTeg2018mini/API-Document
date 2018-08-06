@@ -103,7 +103,7 @@ GET
 
 |参数名   |  类型 | 必填 | 描述|
 |--------|-------|-----|------|
-|type | enum(fan, master)| Yes |请求类型：type=fan表示请求粉丝，type=master表示请求关注者| 
+|type | enum(fan, master, isfollow)| Yes |请求类型：type=fan表示请求粉丝，type=master表示请求关注者，type=follow表示是否关注了某人| 
 |page | int| Yes |请求的页码，分页请求，每次返回10条以内的数据|
 
 返回示例
@@ -156,6 +156,13 @@ GET
         },
         ...
     ],
+    "success": true
+}
+或
+{
+    "message": "成功",
+    "code": 0,
+    "data": true, #true表示关注，false表示没关注
     "success": true
 }
 ```
