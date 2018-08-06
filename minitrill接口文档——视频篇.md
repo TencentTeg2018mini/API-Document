@@ -265,7 +265,7 @@ POST
 返回实例  
 略
 
-### 点赞评论
+### 点赞评论 ok
 
 ``/api/v1.0/videocomment/<int:comment_id>``  
 点赞id为comment_id的评论
