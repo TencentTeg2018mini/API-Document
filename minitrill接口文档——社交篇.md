@@ -76,7 +76,7 @@ POST
 略
 
 
-### 取消关注某人
+### 取消关注某人 ok
 
 ``/api/v1.0/relation/<int:user_id>``  
 为当前登陆账号取消关注uid为user_id的人
@@ -91,7 +91,7 @@ DELETE
 略
 
 
-### 获取关注的人或者粉丝用户数据
+### 获取关注的人或者粉丝用户数据 ok master,isfollow
 
 ``/api/v1.0/relation/?page=1&type=fan``  
 获取当前登陆的人的粉丝或者关注人的用户数据，以分页形式获取，每次返回10条数据
