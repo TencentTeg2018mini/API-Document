@@ -130,7 +130,7 @@ GET
 }
 ```
 
-### 获取视频
+### 获取视频 ok
 
 ``/api/v1.0/video/video/<int:vid>?page=1&uid=1324``  
 请求视频资源
@@ -185,7 +185,7 @@ GET
 ```
 
 
-### 获取附近的视频
+### 获取附近的视频 ok
 
 ``/api/v1.0/neighbour/video?page=1&longitude=1324&latitude=123123&level=8``  
 请求附近的视频资源
@@ -211,7 +211,7 @@ level可取的值为1到10，分为不同的精度，建议取值6到8之间：
 略
 
 
-### 发布评论
+### 发布评论 ok(回复评论没有测试)
 
 ``/api/v1.0/video/videocomment/<int:video_id>``  
 对id为video_id的视频发布评论
@@ -239,7 +239,7 @@ POST
 略
 
 
-### 获取评论
+### 获取评论  ok
 
 ``/api/v1.0/video/videocomment/<int:video_id>``  
 对id为video_id的视频发布评论
@@ -284,7 +284,7 @@ GET
 ```
 
 
-### 删除评论
+### 删除评论 ok
 
 ``/api/v1.0/videocomment/<int:comment_id>``  
 删除id为comment_id的评论
@@ -298,7 +298,7 @@ POST
 返回实例  
 略
 
-### 点赞评论
+### 点赞评论 ok
 
 ``/api/v1.0/videocomment/<int:comment_id>``  
 点赞id为comment_id的评论
