@@ -191,7 +191,44 @@ GET
 }
 ```
 
+### 请求用户信息
 
+请求某个用户的信息
+
+``/api/v1.0/user/<int:uid>``
+
+请求类型  
+GET
+
+请求参数  
+
+|参数名   |  类型 | 必填 | 描述|
+|--------|-------|-----|------|
+|uid | int| Yes |请求的用户id|
+
+返回示例
+```python
+{
+    "message": "成功",
+    "code": 0,
+    "data": {
+        "status": 0,
+        "province": "保密",
+        "account": "lemon123",
+        "tel": "保密",
+        "uid": -840729673,
+        "city": "保密",
+        "country": "中国",
+        "age": 18,
+        "sex": "保密",
+        "brief_introduction": "",
+        "birth": null,
+        "nickname": "张三123",
+        "photo_url": "/data/minitrill/user/photo/default/default.jpg"
+    },
+    "success": true
+}
+```
 
 
 
